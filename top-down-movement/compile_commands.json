@@ -1,0 +1,38 @@
+[
+    {
+        "arguments": [
+            "clang++",
+            "-c",
+            "-Wall",
+            "-Wextra",
+            "-std=c++17",
+            "-g",
+            "-fstandalone-debug",
+            "-I",
+            "include",
+            "-o",
+            "build/player.o",
+            "src/player.cpp"
+        ],
+        "directory": "/home/user/code/ncurses/top-down-movement",
+        "file": "src/player.cpp"
+    },
+    {
+        "arguments": [
+            "clang++",
+            "-c",
+            "-Wall",
+            "-Wextra",
+            "-std=c++17",
+            "-g",
+            "-fstandalone-debug",
+            "-I",
+            "include",
+            "-o",
+            "build/main.o",
+            "src/main.cpp"
+        ],
+        "directory": "/home/user/code/ncurses/top-down-movement",
+        "file": "src/main.cpp"
+    }
+]

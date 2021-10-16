@@ -1,0 +1,38 @@
+[
+    {
+        "arguments": [
+            "clang++",
+            "-c",
+            "-Wall",
+            "-Wextra",
+            "-std=c++17",
+            "-g",
+            "-fstandalone-debug",
+            "-I",
+            "include",
+            "-o",
+            "build/main.o",
+            "src/main.cpp"
+        ],
+        "directory": "/home/user/code/ncurses/menubar",
+        "file": "src/main.cpp"
+    },
+    {
+        "arguments": [
+            "clang++",
+            "-c",
+            "-Wall",
+            "-Wextra",
+            "-std=c++17",
+            "-g",
+            "-fstandalone-debug",
+            "-I",
+            "include",
+            "-o",
+            "build/menubar.o",
+            "src/menubar.cpp"
+        ],
+        "directory": "/home/user/code/ncurses/menubar",
+        "file": "src/menubar.cpp"
+    }
+]
